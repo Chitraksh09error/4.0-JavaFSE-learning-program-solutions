@@ -1,4 +1,4 @@
-import org.junit.jupiter.api.Test;  // Changed to JUnit 5
+import org.junit.jupiter.api.Test;  
 import static org.mockito.Mockito.*;
 
 public class MyServiceTesting {
@@ -10,6 +10,6 @@ public class MyServiceTesting {
         myService.fetchData();
         myService.fetchData();
 
-        verify(externalApi, times(2)).getData();  // Static import
+        verify(externalApi, times(2)).getData();  
     }
 }
