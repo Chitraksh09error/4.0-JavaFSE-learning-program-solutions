@@ -1,0 +1,15 @@
+table {
+  color: rgb(128, 85, 0);
+  border: 2px solid rgb(130, 93, 5);
+}
+
+td {
+  border: 2px solid rgb(130, 80, 4);
+}
+
+.mydiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
