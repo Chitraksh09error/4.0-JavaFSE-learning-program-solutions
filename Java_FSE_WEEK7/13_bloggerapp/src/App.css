@@ -1,0 +1,48 @@
+
+.app-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.details-section {
+  flex: 1;
+  padding: 0 40px;
+  border-right: 2px solid rgb(199, 121, 19);
+}
+
+.details-section.no-border {
+  border-right: none;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.item-container {
+  margin-bottom: 25px;
+}
+
+h3 {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 0 0 8px 0;
+}
+
+h4 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0 0 8px 0;
+}
+
+p {
+  margin: 0;
+  color: #333;
+}
+
+.author {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
